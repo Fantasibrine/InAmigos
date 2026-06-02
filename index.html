@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=JetBrains+Mono:wght@400;500;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="#" class="nav-logo">
+            <img src="InAmigos.jpg" alt="InAmigos Logo">
+            InAmigos
+        </a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#causes">Causes</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#volunteers">Volunteers</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="https://rzp.io/l/kWQ87HP" target="_blank" class="btn btn-primary"
+                    style="padding: 6px 16px; font-size: 16px;">Donate</a></li>
+            <li><button id="themeToggle" class="btn" style="padding: 6px 12px;" aria-label="Toggle Dark Mode"><i
+                        class="fas fa-moon"></i></button></li>
+        </ul>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menu">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+
+    <header class="hero" id="home">
+        <div class="hero-content fade-in">
+            <h1>Together We Rise</h1>
+            <p class="tagline">Empowering Communities Across India</p>
+            <div class="hero-buttons">
+                <a href="https://rzp.io/l/kWQ87HP" target="_blank" class="btn btn-primary"><i class="fas fa-heart"></i>
+                    Donate Now</a>
+                <a href="https://forms.gle/AB4c1hLaDDmtrKGU7" target="_blank" class="btn btn-surface"><i
+                        class="fas fa-hand-holding-heart"></i> Become a Volunteer</a>
+            </div>
+        </div>
+
+        <div class="ticker-wrap">
+            <div class="ticker">
+                <span class="ticker-item"><i class="fas fa-users"></i> 200+ Volunteers</span>
+                <span class="ticker-item"><i class="fas fa-map-marker-alt"></i> 28 States</span>
+                <span class="ticker-item"><i class="fas fa-hands-helping"></i> 6 Causes</span>
+                <span class="ticker-item"><i class="fas fa-smile"></i> 50,000+ Beneficiaries</span>
+                <span class="ticker-item"><i class="fas fa-users"></i> 200+ Volunteers</span>
+                <span class="ticker-item"><i class="fas fa-map-marker-alt"></i> 28 States</span>
+                <span class="ticker-item"><i class="fas fa-hands-helping"></i> 6 Causes</span>
+                <span class="ticker-item"><i class="fas fa-smile"></i> 50,000+ Beneficiaries</span>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="fade-in">
+        <div class="about-grid">
+            <div class="doodle-box doodle-box-alt">
+                <h2 style="text-align: left;">Who We Are</h2>
+                <p>Founded on <strong>September 23, 2020</strong> by <strong>Mr. Govind Shukla</strong> (Founder & CEO),
+                    InAmigos Foundation is a Section 8 registered non-profit organization.</p>
+                <p>Headquartered in Bilaspur, Chhattisgarh, we operate across India with a singular mission:</p>
+                <blockquote
+                    style="font-family: var(--font-primary); font-size: var(--text-24); color: var(--color-primary); border-left: 4px solid var(--color-primary); padding-left: 16px; margin: 24px 0;">
+                    "Empowering lives through collective compassion and sustainable social action."
+                </blockquote>
+                <a href="#contact" class="btn btn-secondary mt-3">Learn More</a>
+            </div>
+            <div>
+                <h3>Our Credentials</h3>
+                <div class="credentials-grid">
+                    <div class="credential-item"><i class="fas fa-file-contract"></i> Section 8 NGO</div>
+                    <div class="credential-item"><i class="fas fa-stamp"></i> 80G & 12A Certified</div>
+                    <div class="credential-item"><i class="fas fa-building"></i> CSR-1 Registered</div>
+                    <div class="credential-item"><i class="fas fa-landmark"></i> NITI Aayog Registered</div>
+                    <div class="credential-item"><i class="fas fa-certificate"></i> ISO 9001:2015</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="causes" style="background-color: rgba(73, 182, 229, 0.1);">
+        <h2 class="fade-in">Our Projects & Causes</h2>
+        <div class="grid-3 fade-in">
+            <div class="doodle-box cause-card">
+                <i class="fas fa-utensils"></i>
+                <h3>Project SEVA</h3>
+                <p class="tagline" style="font-size: 16px;">"Serving Humanity with Compassion"</p>
+                <p>50,000+ meals and clothing items distributed to the underprivileged to ensure no one sleeps hungry.
+                </p>
+            </div>
+            <div class="doodle-box cause-card doodle-box-alt">
+                <i class="fas fa-child"></i>
+                <h3>Project BACHPANSHALA</h3>
+                <p class="tagline" style="font-size: 16px;">"Nurturing Young Minds, Building Bright Futures"</p>
+                <p>Education support, digital literacy, and life skills for underprivileged children.</p>
+            </div>
+            <div class="doodle-box cause-card">
+                <i class="fas fa-paw"></i>
+                <h3>Project JEEV</h3>
+                <p class="tagline" style="font-size: 16px;">"Empowering Lives, Spreading Compassion"</p>
+                <p>Animal welfare initiatives including rescues, protection, and feeding 50+ stray animals daily.</p>
+            </div>
+            <div class="doodle-box cause-card doodle-box-alt">
+                <i class="fas fa-female"></i>
+                <h3>Project UDAAN</h3>
+                <p class="tagline" style="font-size: 16px;">"Soaring Towards a Brighter Future"</p>
+                <p>Women empowerment via skill development, financial independence, and menstrual hygiene awareness.</p>
+            </div>
+            <div class="doodle-box cause-card">
+                <i class="fas fa-tree"></i>
+                <h3>Project PRAKRITI</h3>
+                <p class="tagline" style="font-size: 16px;">"Plant for a Better Tomorrow"</p>
+                <p>20,000+ saplings planted alongside initiatives for eco-friendly agriculture and sustainability.</p>
+            </div>
+            <div class="doodle-box cause-card doodle-box-alt">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Project VIKAS</h3>
+                <p class="tagline" style="font-size: 16px;">"Building Tomorrow's Workforce"</p>
+                <p>30,000+ interns trained in data ops, finance, digital marketing, social work, and more.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="impact-section fade-in">
+        <h2>Our Impact</h2>
+        <div class="impact-grid" id="impactCounter">
+            <div class="impact-item doodle-box-alt">
+                <span class="counter" data-target="200">0</span>
+                <span class="impact-label">Volunteers</span>
+            </div>
+            <div class="impact-item">
+                <span class="counter" data-target="28">0</span>
+                <span class="impact-label">States Reached</span>
+            </div>
+            <div class="impact-item doodle-box-alt">
+                <span class="counter" data-target="6">0</span>
+                <span class="impact-label">Active Projects</span>
+            </div>
+            <div class="impact-item">
+                <span class="counter" data-target="50000">0</span>
+                <span class="impact-label">Beneficiaries</span>
+            </div>
+            <div class="impact-item doodle-box-alt">
+                <span class="counter" data-target="20000">0</span>
+                <span class="impact-label">Saplings Planted</span>
+            </div>
+            <div class="impact-item">
+                <span class="counter" data-target="30000">0</span>
+                <span class="impact-label">Interns Trained</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="events" class="fade-in">
+        <h2>Our Events</h2>
+        <div class="grid-3">
+            <div class="doodle-box">
+                <span class="badge">22 March 2025</span>
+                <span class="badge" style="background-color: var(--color-primary); color: white;">Environment</span>
+                <h3>World Water Day 2025</h3>
+                <p>This event highlights the importance of water conservation and collective action to ensure clean
+                    water
+                    for all.</p>
+                <a href="#contact" class="btn" style="font-size: 14px; padding: 4px 12px;">Read More</a>
+            </div>
+            <div class="doodle-box doodle-box-alt">
+                <span class="badge">20 March 2025</span>
+                <span class="badge" style="background-color: var(--color-success); color: white;">Community</span>
+                <h3>International Day of Happiness 2025</h3>
+                <p>Spreading joy, positivity, and well-being through engaging activities and inspiring discussions.</p>
+                <a href="#contact" class="btn" style="font-size: 14px; padding: 4px 12px;">Read More</a>
+            </div>
+            <div class="doodle-box">
+                <span class="badge">11 February 2025</span>
+                <span class="badge" style="background-color: var(--color-secondary); color: white;">Education</span>
+                <h3>Int'l Day of Women & Girls in Science</h3>
+                <p>Celebrating women's contributions in science and inspiring the next generation.</p>
+                <a href="#contact" class="btn" style="font-size: 14px; padding: 4px 12px;">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" style="background-color: rgba(217, 119, 6, 0.1);">
+        <h2 class="fade-in">Photo Gallery</h2>
+        <div class="gallery-grid fade-in">
+            <div class="gallery-item doodle-box-alt">
+                <img src="https://inamigosfoundation.org.in/public/storage/gallery/1743051485.jpg"
+                    alt="Community Activity 1">
+                <div class="gallery-overlay">Community Action</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://inamigosfoundation.org.in/public/storage/gallery/1743051466.jpg"
+                    alt="Community Activity 2">
+                <div class="gallery-overlay">Field Work</div>
+            </div>
+            <div class="gallery-item doodle-box-alt">
+                <img src="https://inamigosfoundation.org.in/public/storage/gallery/1743051449.jpg"
+                    alt="Community Activity 3">
+                <div class="gallery-overlay">Volunteers</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://inamigosfoundation.org.in/public/storage/gallery/1743051438.jpg"
+                    alt="Community Activity 4">
+                <div class="gallery-overlay">Empowerment</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="volunteers" class="fade-in">
+        <h2>Our Volunteers</h2>
+        <div class="grid-3" style="margin-bottom: var(--space-32);">
+            <div class="doodle-box text-center" style="text-align: center;">
+                <div
+                    style="width: 100px; height: 100px; border-radius: 50%; border: 3px solid var(--color-primary); margin: 0 auto 16px; background: #E5E7EB; display: flex; align-items: center; justify-content: center; font-size: 40px; color: #9CA3AF;">
+                    <i class="fas fa-user"></i>
+                </div>
+                <h3>Faiz Khan</h3>
+                <p class="tagline" style="font-size: 16px;">Volunteer Supervisor, UP</p>
+            </div>
+            <div class="doodle-box doodle-box-alt text-center" style="text-align: center;">
+                <div
+                    style="width: 100px; height: 100px; border-radius: 50%; border: 3px solid var(--color-success); margin: 0 auto 16px; background: #E5E7EB; display: flex; align-items: center; justify-content: center; font-size: 40px; color: #9CA3AF;">
+                    <i class="fas fa-user"></i>
+                </div>
+                <h3>Manavi Jaiswal</h3>
+                <p class="tagline" style="font-size: 16px;">Junior Volunteer Associate</p>
+            </div>
+            <div class="doodle-box text-center" style="text-align: center;">
+                <div
+                    style="width: 100px; height: 100px; border-radius: 50%; border: 3px solid var(--color-warning); margin: 0 auto 16px; background: #E5E7EB; display: flex; align-items: center; justify-content: center; font-size: 40px; color: #9CA3AF;">
+                    <i class="fas fa-user"></i>
+                </div>
+                <h3>Akash</h3>
+                <p class="tagline" style="font-size: 16px;">Volunteer Associate</p>
+            </div>
+        </div>
+        <div style="text-align: center;">
+            <a href="https://forms.gle/AB4c1hLaDDmtrKGU7" target="_blank" class="btn btn-primary"><i
+                    class="fas fa-user-plus"></i> Join as Volunteer</a>
+        </div>
+    </section>
+
+    <section class="donate-cta fade-in">
+        <h2>Make a Difference With Your Donation Today</h2>
+        <p style="font-size: var(--text-24); font-family: var(--font-primary); max-width: 800px; margin: 0 auto 32px;">
+            Every
+            rupee you donate goes directly to feeding families, educating children, empowering women, and protecting
+            animals.</p>
+        <a href="https://rzp.io/l/kWQ87HP" target="_blank" class="btn btn-surface" style="font-size: 24px;"><i
+                class="fas fa-rupee-sign"></i> Donate Now</a>
+    </section>
+
+    <div class="cert-strip">
+        <div class="cert-badge">Section 8 NGO</div>
+        <div class="cert-badge">80G Certified</div>
+        <div class="cert-badge">12A Certified</div>
+        <div class="cert-badge">CSR-1 Registered</div>
+        <div class="cert-badge">ISO 9001:2015</div>
+        <div class="cert-badge">NITI Aayog Registered</div>
+    </div>
+
+    <section id="blog" class="fade-in">
+        <h2>Latest from the Field</h2>
+        <div class="grid-3">
+            <div class="doodle-box">
+                <span class="badge">Field Story</span>
+                <h3>A Day at Bachpanshala</h3>
+                <p>Read about our recent visit to the rural learning center where 50 new students received their digital
+                    literacy kits.</p>
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 16px;">
+                    <small>15 May 2025</small>
+                    <a href="#contact" class="btn" style="padding: 4px 12px; font-size: 14px;">Read More</a>
+                </div>
+            </div>
+            <div class="doodle-box doodle-box-alt">
+                <span class="badge">Project Update</span>
+                <h3>Project Prakriti Milestone</h3>
+                <p>We've successfully planted our 20,000th sapling! Discover the journey of our eco-friendly agriculture
+                    initiative.</p>
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 16px;">
+                    <small>02 Apr 2025</small>
+                    <a href="#contact" class="btn" style="padding: 4px 12px; font-size: 14px;">Read More</a>
+                </div>
+            </div>
+            <div class="doodle-box">
+                <span class="badge">Volunteer Experience</span>
+                <h3>Finding Purpose with Project Jeev</h3>
+                <p>One of our dedicated volunteers shares her heartwarming experience rescuing and feeding stray animals
+                    in
+                    Bilaspur.</p>
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 16px;">
+                    <small>28 Mar 2025</small>
+                    <a href="#contact" class="btn" style="padding: 4px 12px; font-size: 14px;">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" style="background-color: rgba(22, 163, 74, 0.1);" class="fade-in">
+        <h2>Frequently Asked Questions</h2>
+        <div style="max-width: 800px; margin: 0 auto;">
+            <details class="faq-item" open>
+                <summary>Is my donation tax-exempt?</summary>
+                <p>Yes. InAmigos Foundation holds 80G and 12A certifications, making donations eligible for tax
+                    exemption
+                    under the Income Tax Act.</p>
+            </details>
+            <details class="faq-item doodle-box-alt">
+                <summary>How can I volunteer?</summary>
+                <p>Fill out the volunteer form at <a href="https://forms.gle/AB4c1hLaDDmtrKGU7" target="_blank"
+                        style="color: var(--color-primary); text-decoration: underline;">this link</a> and our team will
+                    get
+                    in touch with you.</p>
+            </details>
+            <details class="faq-item">
+                <summary>Where does InAmigos operate?</summary>
+                <p>We operate across 28 states in India, headquartered in Bilaspur, Chhattisgarh.</p>
+            </details>
+            <details class="faq-item doodle-box-alt">
+                <summary>Is InAmigos registered with the government?</summary>
+                <p>Yes, we are Section 8, NITI Aayog, and CSR-1 registered, as well as IAF ISO 9001:2015 certified.</p>
+            </details>
+        </div>
+    </section>
+
+    <section id="contact" class="fade-in">
+        <h2>Get in Touch</h2>
+        <div class="contact-wrap">
+            <div class="doodle-box doodle-box-alt">
+                <h3>Contact Information</h3>
+                <ul class="contact-info" style="margin-top: 24px;">
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Ward No. 5, Gram Post, Sipat Ujwal Nagar, Bilaspur, Chhattisgarh – 495555</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-phone-alt"></i>
+                        <span>+91 626 730 9902</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <span>support@inamigosfoundation.org.in</span>
+                    </li>
+                </ul>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/inamigos.inamigos" target="_blank" aria-label="Facebook"><i
+                            class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/inamigos/" target="_blank" aria-label="Instagram"><i
+                            class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="doodle-box">
+                <h3>Send a Message</h3>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Full Name</label>
+                        <input type="text" id="name" class="form-control" required placeholder="John Doe">
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" id="email" class="form-control" required placeholder="john@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea id="message" class="form-control" rows="4" required
+                            placeholder="How can we help?"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;"><i
+                            class="fas fa-paper-plane"></i>
+                        Submit Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-grid">
+            <div>
+                <div class="footer-logo">InAmigos Foundation</div>
+                <p>Empowering Communities Across India</p>
+                <div class="social-icons" style="margin-top: 16px;">
+                    <a href="https://www.facebook.com/inamigos.inamigos" target="_blank" style="color: white;"
+                        aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/inamigos/" target="_blank" style="color: white;"
+                        aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h3 style="color: white;">Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#causes">Causes</a></li>
+                    <li><a href="#volunteers">Volunteers</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h3 style="color: white; visibility: hidden;">More Links</h3>
+                <ul>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 style="color: white;">Headquarters</h3>
+                <p><i class="fas fa-map-marker-alt" style="margin-right: 8px;"></i>Ward No. 5, Gram Post, Sipat Ujwal
+                    Nagar,
+                    Bilaspur, CG – 495555</p>
+                <p><i class="fas fa-phone-alt" style="margin-right: 8px;"></i>+91 626 730 9902</p>
+                <p><i class="fas fa-envelope" style="margin-right: 8px;"></i>support@inamigosfoundation.org.in</p>
+            </div>
+        </div>
+        <div class="copyright">
+            InAmigos Foundation. Designed with <i class="fas fa-heart"
+                style="color: var(--color-danger);"></i> by <a style="color: rgb(57, 155, 0);" href="https://linkedin.com/in/vedantgole2007" target="_blank">Vedant</a>
+        </div>
+    </footer>
+
+    <button id="backToTop" aria-label="Back to Top"><i class="fas fa-arrow-up"></i></button>
+</body>
+<script src="script.js"></script>
+
+</html>
